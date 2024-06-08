@@ -8,7 +8,7 @@ const Contact = () => {
         {/* <div className="row gy-4 grid grid-cols-1 sm:grid-cols-3 gap-6 ml-7 justify-center "> */}
         <div className="flex flex-wrap gap-4 justify-center  ">
 
-          <div className="col-lg-6 flex flex-col items-center md:w-[47%] shadow-lg p-4 ">
+          <div className="col-lg-6 flex flex-col items-center w-[100%] md:w-[810%] shadow-lg p-4 ">
             <div className="info-item flex flex-col justify-center items-center ">
               <i className="bi bi-map text-4xl text-primary mb-4"></i>
               <h3 className="text-xl font-semibold text-gray-700">Our Address</h3>
@@ -18,26 +18,26 @@ const Contact = () => {
                 Dubai, U.A.E</p>
             </div>
           </div>
-          <div className='grid grid-cols-2 gap-4 md:w-[51%] '>
-            <div className="col-lg-3 col-md-6 flex flex-col items-center shadow-lg p-4">
-              <div className="info-item flex flex-col justify-center items-center ">
-                <i className="bi bi-envelope text-4xl text-primary mb-4"></i>
-                <h3 className="text-xl font-semibold text-gray-700">Email Us</h3>
-                <a href="mailto:info@forestry.ae" className="">noor2024alshams@gmail.com
-                </a>
-                <a href="mailto:info@forestry.ae" className="">info@nooralshamsdubai.com
-                </a>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 flex flex-col items-center shadow-lg p-4">
-              <div className="info-item flex flex-col justify-center items-center ">
-                <i className="bi bi-telephone text-4xl text-primary mb-4"></i>
-                <h3 className="text-xl font-semibold text-gray-700">Call Us</h3>
-                <a href="tel:+971544641726" className=""> 055 505 4975</a>
-                <a href="tel:+971544641726" className="">+971 558270999</a>
-              </div>
+          {/* <div className='grid grid-cols-2 gap-4 md:w-[51%] '> */}
+          <div className="w-[100%] col-lg-3 col-md-12 flex flex-col items-center shadow-lg p-4">
+            <div className=" info-item flex flex-col justify-center items-center ">
+              <i className="bi bi-envelope text-4xl text-primary mb-4"></i>
+              <h3 className="text-xl font-semibold text-gray-700">Email Us</h3>
+              <a href="mailto:info@forestry.ae" className="">noor2024alshams@gmail.com
+              </a>
+              <a href="mailto:info@forestry.ae" className="">info@nooralshamsdubai.com
+              </a>
             </div>
           </div>
+          <div className="col-lg-3 col-md-12 flex flex-col items-center shadow-lg p-4 w-[100%]">
+            <div className="info-item flex flex-col justify-center items-center ">
+              <i className="bi bi-telephone text-4xl text-primary mb-4"></i>
+              <h3 className="text-xl font-semibold text-gray-700">Call Us</h3>
+              <a href="tel:+971555054975" className=""> +971 555054975</a>
+              <a href="tel:+971558270999" className="">+971 558270999</a>
+            </div>
+          </div>
+          {/* </div> */}
         </div>
         <div className="row gy-4 mt-4">
           <div className="col-lg-6 w-full max-w-full">

@@ -3,7 +3,7 @@ import React from 'react';
 import { RiInstagramFill, RiFacebookCircleFill, RiYoutubeFill } from "react-icons/ri";
 import { Link, Element, animateScroll as scroll } from 'react-scroll';
 
-import logo from '../../assets/img/Logo/Logo.png'
+import logo from '../../assets/img/Logo/logo.png'
 
 
 const Footer = () => {

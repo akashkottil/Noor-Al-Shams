@@ -2,13 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/img/Logo/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Noorl Al Shams</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+      <!-- whatsapp -->
+  <a href="https://wa.me/+971555054975 " class="btn-whatsapp-pulse btn-whatsapp-pulse-border" id="whatsappButton" role="button" aria-label="Call via WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- whatsapp end -->
     
   </body>
+  <script>
+    document.getElementById("whatsappButton").addEventListener("click", function(event) {
+        // No need to prevent the default action as we're using the correct link
+
+        // Open the WhatsApp link for both mobile and desktop devices
+        window.open("https://wa.me/+971555054975", '_blank');
+    });
+</script>
 </html>

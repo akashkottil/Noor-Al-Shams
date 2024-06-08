@@ -6,7 +6,7 @@ import './Slider.css'
 
 // importing images
 
-import logo from '../../assets/img/Logo/Logo.png'
+import logo from '../../assets/img/Logo/logo.png'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';

@@ -12,12 +12,15 @@ import LuxuryProducts from '../../Components/LuxuryProducts/LuxuryProducts'
 import StoneProducts from '../../Components/StoneProducts/StoneProducts'
 import Claypots from '../../Components/Claypots/Claypots'
 import Contact from '../Contact/Contact'
-// import Contact from '../../Components/Contact/Contact'
+import './Home.css'   // for whatsapp in index.html
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 const Home = () => {
+  
   return (
     <div>
+      
       <Navbar/>
       <Sliders/>
       <Stats/>

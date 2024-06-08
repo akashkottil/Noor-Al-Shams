@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Element } from 'react-scroll';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import catus from '../../assets/img/plants/Western.png';
 import cannabis from '../../assets/img/plants/Cannabis.png';
 import irrigation from '../../assets/img/plants/Irrigation.png';
@@ -8,18 +10,18 @@ import potted from '../../assets/img/plants/Potted.png';
 import Mature_1 from '../../assets/img/services/Mature_3.jpg'
 import Mature_2 from '../../assets/img/services/Mature_2.jpg'
 import Mature_3 from '../../assets/img/services/Mature_1.jpg'
-import Stone_1 from '../../assets/img/services/Stone_1.png'
-import Stone_2 from '../../assets/img/services/Stone_2.png'
-import Stone_3 from '../../assets/img/services/Stone_3.png'
+import Stone_1 from '../../assets/img/services/Stone_1.jpg'
+import Stone_2 from '../../assets/img/services/Stone_2.jpg'
+import Stone_3 from '../../assets/img/services/Stone_3.jpg'
 import Soil_1 from '../../assets/img/services/Soil_1.jpg'
 import Soil_2 from '../../assets/img/services/Soil_2.jpg'
 import Soil_3 from '../../assets/img/services/Soil_3.jpg'
-import Plants_1 from '../../assets/img/services/Plants_1.png'
+import Plants_1 from '../../assets/img/services/Plants_1.jpg'
 import Plants_2 from '../../assets/img/services/Plants_2.jpg'
-import Plants_3 from '../../assets/img/services/Plants_3.png'
+import Plants_3 from '../../assets/img/services/Plants_3.jpg'
 import Pots_1 from '../../assets/img/services/Pots_1.jpg'
 import Pots_2 from '../../assets/img/services/Pots_2.jpg'
-import Pots_3 from '../../assets/img/services/Pots_3.png'
+import Pots_3 from '../../assets/img/services/Pots_3.jpg'
 
 
 
@@ -80,6 +82,9 @@ const Service = () => {
                                 <div>
                                     <h1 className='font-bold text-green-700'>{data.heading}</h1>
                                     <p className='text-sm'>{data.para}</p>
+                                </div>
+                                <div>
+                                    <FontAwesomeIcon icon={faChevronDown} className='expand-icon' />
                                 </div>
                             </div>
                             {selectedPlant === index && (
